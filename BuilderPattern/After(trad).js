@@ -43,8 +43,8 @@ class EmployeeBuilder {
 let employee = new EmployeeBuilder('John').setAge(30).setPhone('555-555-5555').setAddress(new Address('123 Main St', 'New York', 'NY')).build();
 console.log(employee);
 
-let employee1 = new EmployeeBuilder('John').build();
-console.log(employee1);
+// let employee1 = new EmployeeBuilder('John').build();
+// console.log(employee1);
 
-let employee2 = new EmployeeBuilder('John').setAge(30).build();
-console.log(employee2);
+// let employee2 = new EmployeeBuilder('John').setAge(30).build();
+// console.log(employee2);
